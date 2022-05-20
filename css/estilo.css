@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-weight: 300;
+}
+:root {
+  --primary: #455a64;
+  --secondary: #7e57c2;
+  --secondaryLight: #BEBDBB;
+  --white: #ffffff;
+  --black: #000000;
+}
+header {
+  display: flex;
+  border-bottom: 0.5rem solid var(--secondary);
+}
+header picture img {
+  height: 3rem;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  margin: 0 1.5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+main {
+  min-height: 80vh;
+}
+footer {
+  background-color: var(--secondary);
+  height: 1.9rem;
+  color: #7e57c2;
+  display:flex;
+  align-items: var(--primary);
+  justify-content: center;
+  font-size: 2rem;
+}
+footer > div {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  max-width: 1364px;
+  margin: 0 auto;
+} 
+main picture img {
+  margin-top: 5rem;
+height: 300%;
+width: 67%;
+}
+.card {
+background-color: #7e57c2;
+border-radius: 0.5rem;
+padding: 0.rem;
+
+}
+/* Specific Login */
+main > section.auth {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main > section.auth >h1 {
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+main > section.auth > form {
+  background-color: #BEBDBB;
+  border: 0.2rem solid var(--primary);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+main > section.auth > form > div {
+  background-color: #ffffff;
+  border: 0.15rem solid var(--primary);
+  border-radius: 0.6rem;
+  display: flex;
+  margin: 0.5rem 0;
+}
+main > section.auth > form > div > img {
+  height: 2.5rem;
+  padding: 0.3rem;
+}
+main > section.auth > form > div > img > input {
+  width: 100%;
+  font-size: 1rem;
+  border: 0;
+  background-color: transparent;
+}
+main > section.auth > form > p > a {
+text-decoration: none;
+color: var(--black);
+font-weight: 500;
+}
+main > section.auth > form > p > button {
+  background-color: #455a64;
+  color: var(--white);
+  padding: 0.6rem;
+  border: 0;
+  border-radius: 0.6rem;
+  width: 5rem;
+  margin-left: 0.5rem;
+}

@@ -26,10 +26,28 @@
       </nav>
     </header>
     <main class="content">
-      <picture>
-        <img src="./img/Group 1.png" alt="Imagem principal"/>
-        
-      </picture>
+        <section class="auth">
+            <h1>Login</h1>
+            <form action="cadastrar.html" method="post">
+               
+                <label for="email">E-mail</label>
+                <div>
+                    <img src="./img/email.svg" alt="Email"/>
+                <input type="email" name="email" id="email" required placeholder="E-mail" />
+                </div>
+                <label for="senha">Senha</label>
+                <div>
+                <img src="./img/key.svg" alt="key">
+                <input type="password" name="senha" id="senha" required placeholder="Senha"/>
+                </div>
+                 <p>
+                     Não possui conta? <a href="login.html">Cadastre-se</a>
+                    <button type="submit"> Entrar</button>
+                </p>
+              
+            </form>
+        </section>
+     
     </main>
     <footer>
       <div class="content">
